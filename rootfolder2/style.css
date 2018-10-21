@@ -1,0 +1,104 @@
+* {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1500px;
+  background-color: #f2f2f2;
+}
+
+#header-logo {
+  display: block;
+  font-family: Raider Crusader;
+  color: #707070;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+html, body {
+  width: 100%;
+}
+
+.nav-links {
+  text-align: center;
+  font-family: Adam;
+  color: #000;
+}
+
+#welcome-message {
+  font-family: 'Cabin', sans-serif;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#welcome-paragraph {
+  font-family: Museo Sans For Dell;
+  font-size: 18px;
+}
+
+#subscribe-welcome-message {
+  font-family: Museo Sans For Dell;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.email-input {
+ font-family: Museo Sans For Dell;
+ text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background-color: gray;
+  width: 100%;
+}
+
+.footer img {
+  padding: 5px;
+}
+
+.footer img:hover {
+  background-color: #a3b1c9;
+}
+
+/*BLOG*/
+
+.blog1 {
+  width: 300px;
+  height: 300px;
+  font-family: Museo Sans For Dell;
+}
+
+.blog1 h2:hover {
+  text-decoration: underline;
+  color: #7f7f7f;
+  display: block;
+}
+
+.blog1 h1 {
+  text-align: center;
+}
+
+.blog2 {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  display: block;
+  position: static;
+  font-family: Museo Sans For Dell;
+}
+
+.blog2 h2:hover {
+  text-decoration: underline;
+  color: #7f7f7f;
+  display: block;
+}
+
+.blog2 h1 {
+  text-align: center;
+}
