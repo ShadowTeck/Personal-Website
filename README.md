@@ -8,3 +8,6 @@ Starting coding website
 
 10/23/18
 Added Copyright to footer
+
+10/27/18
+Added DMCA Protection to footer to prevent copyright abuse
