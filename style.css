@@ -28,6 +28,7 @@ a {
 html, body {
   width: 100%;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .nav-links {
@@ -35,6 +36,7 @@ html, body {
   text-align: center;
   font-family: Adam;
   color: #000;
+  font-size: 20px;
 }
 
 .nav-links a:hover {
@@ -42,18 +44,13 @@ html, body {
 }
 
 .welcome {
+  width: 100%;
+  text-align: center;
   margin-top: 12%;
-  margin-bottom: 27%;
-}
-
-@media only screen and (max-width: 600px) {
-    .home {
-        font-size: 12px;
-    }
 }
 
 .welcome h1 {
-  font-size: 60px;
+  font-size: 5vw;
   text-align: center;
   padding: 5px;
   font-family: adam;
@@ -61,7 +58,7 @@ html, body {
 }
 
 .welcome p {
-  font-size: 28px;
+  font-size: 2vw;
   text-align: center;
   padding: 5px;
   font-family: 'Montserrat', sans-serif;
@@ -121,6 +118,62 @@ input[type=submit]:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.view-more {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+  width: 150px;
+  margin-left: 45%;
+}
+
+.view-more:hover {
+  background-color: #6a9ced;
+  color: #fff;
+  transition-duration: .3s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.panel-2 {
+  padding: 0px;
+  margin: 0px;
+  background-color: #003342;
+  height: 50vw;
+  width: auto;
+}
+
+#home-about-info {
+  padding-top: 5px;
+  font-family: 'Cabin';
+  color: #ffffff;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.panel-3 {
+  margin: 0px;
+  padding: 0px;
+  background-color: #5b5b5b;
+  height: 40vw;
+  width: auto;
+}
+
+.panel-4 {
+  margin: 0px;
+  padding: 0px;
+  background-color: #584175;
+  height: 40vw;
+  width: auto;
+}
+
+.panel-4 p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw;
+  padding: 15px;
+  text-align: left;
+  color: #fff;
+}
 
 .footer {
   display: flex;
@@ -192,6 +245,11 @@ input[type=submit]:hover {
   display: block;
 }
 
+.blog1 img:hover {
+  transition-duration: 1s;
+  opacity: .85;
+}
+
 .blog1 h1 {
   text-align: center;
 }
@@ -210,6 +268,11 @@ input[type=submit]:hover {
   display: block;
 }
 
+.blog2 img:hover {
+  transition-duration: 1s;
+  opacity: .85;
+}
+
 .blog2 h1 {
   text-align: center;
 }
@@ -226,6 +289,11 @@ input[type=submit]:hover {
   text-decoration: underline;
   color: #7f7f7f;
   display: block;
+}
+
+.blog3 img:hover {
+  transition-duration: 1s;
+  opacity: .85;
 }
 
 .blog3 h1 {
@@ -247,7 +315,7 @@ input[type=submit]:hover {
 
 .white-space3 {
   width: auto;
-  height: 150px;
+  height: 180px;
 }
 
 .podcast {
@@ -266,6 +334,9 @@ input[type=submit]:hover {
   color: #ff7700;
 }
 
+#podcast-title {
+  padding-bottom: 15px;
+}
 
 .white-space2 {
   width: auto;
@@ -283,6 +354,22 @@ input[type=submit]:hover {
  display: flex;
  justify-content: center;
  vertical-align: middle;
+}
+
+#fine-print {
+  font-size: 12px;
+  text-align: center;
+}
+
+#ul-list-blog {
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+.listen {
+  padding: 15px;
+  text-align: center;
 }
 
 /*PROJECTS*/
@@ -401,8 +488,9 @@ input[type=submit]:hover {
 
 #short-description {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-family: Adam;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .img-center {
@@ -432,12 +520,6 @@ input[type=submit]:hover {
   font-size: 36px;
 }
 
-#short-description {
-  text-align: center;
-  font-family: Adam;
-  font-weight: bold;
-  font-size: 24px;
-}
 
 .download {
   color: gray;
@@ -456,6 +538,26 @@ input[type=submit]:hover {
   background-color: #78cfe8;
 }
 
+/*PROJECT 2*/
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.gallery img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6px;
+}
+
+.gallery img:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition-duration: .5s;
+}
 
 /*
 
@@ -701,4 +803,29 @@ hr {
   position: relative;
   right: 0px;
   font-family: 'Roboto', sans-serif;
+  background-color: #ceb9e8;
+  padding: 0px 10px 10px 10px;
+}
+
+.oops {
+  padding-top: 25px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-story {
+        font-size: 12px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .welcome h1 {
+      float: left;
+    }
+    .welcome p {
+      float: left;
+    }
+
 }
