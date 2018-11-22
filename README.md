@@ -14,3 +14,6 @@ Added DMCA Protection to footer to prevent copyright abuse
 
 11/14/18
 Beta Release 1.0
+
+11/22/18
+Official Release 2.0
